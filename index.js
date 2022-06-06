@@ -1,3 +1,4 @@
+return true;
 const p = require("phin");
 const core = require("@actions/core");
 const { execSync } = require("child_process");
