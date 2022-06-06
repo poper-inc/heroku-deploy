@@ -1,11 +1,6 @@
-const core = require("@actions/core");
-
-core.setOutput(
-  "status",
-  "Successfully with nothing to do"
-);
 return true;
 const p = require("phin");
+const core = require("@actions/core");
 const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
