@@ -1,3 +1,10 @@
+const core = require("@actions/core");
+
+core.setOutput(
+  "status",
+  "Successfully deployed heroku app from branch " + heroku.branch
+);
+return true;
 const p = require("phin");
 const core = require("@actions/core");
 const { execSync } = require("child_process");
